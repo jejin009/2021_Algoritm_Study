@@ -67,7 +67,7 @@ public class BOJ_16954_움직이는미로탈출 {
 				}
 			}
 			walls = 0;
-			for (int i = 6; i > 0; i--) {
+			for (int i = 6; i >= 0; i--) {
 				for (int j = 0; j < 8; j++) {
 					if (board[i][j] == '#') {
 						board[i + 1][j] = '#';
